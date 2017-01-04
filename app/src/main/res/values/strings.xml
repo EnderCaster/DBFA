@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DBManageApp</string>
+    <string name="main_sp">:</string>
+    <string name="main_host">Host name/domain/ip</string>
+    <string name="main_port">port</string>
+    <string name="main_dbName">Database Name</string>
+    <string name="main_arguments">other arguments for connection, blank for default</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="main_connect">Connect</string>
+
+    <string name="manage_execute">Execute</string>
+    <string name="manage_close">Close</string>
+    <string name="title_activity_management">Management</string>
+    <string name="manage_sqlArea">type your SQL code here</string>
+    <string name="management_execute">Execute</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="manage_dataArea">put ResultSet here</string>
+    <string name="manage_hintArea">value returned</string>
+    <string name="error_sql_syntax">Syntax Error</string>
+    <string name="error_connString_empty">host,port,database name,username and password should not be empty</string>
+
+
+</resources>

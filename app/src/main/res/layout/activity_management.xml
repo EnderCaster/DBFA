@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:id="@+id/manage_codeArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/sql"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:hint="@string/manage_sqlArea"
+            android:textColor="@android:color/holo_green_dark" />
+
+        <Button
+            android:id="@+id/manage_executeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/management_execute" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/manage_hintArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/manage_codeArea"
+        android:text="@string/manage_hintArea"
+        android:textColor="@android:color/white"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/manage_dataArea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/manage_codeArea"
+        android:text="@string/manage_dataArea"
+        android:textColor="@android:color/white"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>
